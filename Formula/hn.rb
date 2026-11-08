@@ -1,8 +1,8 @@
 class Hn < Formula
   desc "Interactive terminal client for Hacker News"
   homepage "https://github.com/kaushalvivek/hn-cli"
-  url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.2.0/hn-v0.2.0-macos-universal.tar.gz"
-  sha256 "2bd2461210e8b340cfd7a3533fe0f0b71d72f1e382e1c787e0966a594def0025"
+  url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.2.1/hn-v0.2.1-macos-universal.tar.gz"
+  sha256 "d964222b56c70d63ec12b46f503cc364a7d59c643dc15253507a439f34f9760e"
   license "MIT"
 
   depends_on :macos
@@ -12,6 +12,6 @@ class Hn < Formula
   end
 
   test do
-    assert_match "0.2.0", shell_output("#{bin}/hn --version")
+    assert_match "0.2.1", shell_output("#{bin}/hn --version")
   end
 end
