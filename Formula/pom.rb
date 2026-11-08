@@ -10,4 +10,8 @@ class Pom < Formula
   def install
     bin.install "pom"
   end
+
+  test do
+    assert_predicate bin/"pom", :executable?
+  end
 end

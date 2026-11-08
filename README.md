@@ -4,6 +4,14 @@ Homebrew formulae for Kaushal Vivek's tools, all in one tap.
 
 ## Install
 
+Homebrew 7 may ask you to trust this tap the first time:
+
+```bash
+brew trust kaushalvivek/tap
+```
+
+Then:
+
 ```bash
 brew install kaushalvivek/tap/hn
 brew install kaushalvivek/tap/pom
