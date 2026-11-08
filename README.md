@@ -17,7 +17,7 @@ brew install kaushalvivek/tap/pom
 
 | Formula | Description |
 | --- | --- |
-| [`hn`](https://github.com/kaushalvivek/hn-cli) | Interactive terminal client for Hacker News |
+| [`hn`](https://github.com/kaushalvivek/hn-cli) | Hacker News terminal browser and CLI (macOS + Linux, Rust) |
 | [`pom`](https://github.com/kaushalvivek/pom) | Elegant terminal pomodoro timer |
 
 ## Migration from the old `pom` tap
