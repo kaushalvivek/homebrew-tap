@@ -1,7 +1,6 @@
 class Hn < Formula
   desc "Interactive terminal client for Hacker News"
   homepage "https://github.com/kaushalvivek/hn-cli"
-  version "0.3.1"
   license "MIT"
 
   on_macos do
