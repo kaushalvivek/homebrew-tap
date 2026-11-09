@@ -5,25 +5,25 @@ class Hn < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.0/hn-v0.4.0-macos-universal.tar.gz"
-      sha256 "cc4e97f0b8bb39e2c48a6f5e4d0f16245eeaebd91e88506bc343eac4ee042b6a"
+      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.2/hn-v0.4.2-macos-universal.tar.gz"
+      sha256 "ee202f1cf7d495c79d750b8039499804665f3100aeefb07a3f7ba77450d2ec92"
     end
 
     on_arm do
-      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.0/hn-v0.4.0-macos-universal.tar.gz"
-      sha256 "cc4e97f0b8bb39e2c48a6f5e4d0f16245eeaebd91e88506bc343eac4ee042b6a"
+      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.2/hn-v0.4.2-macos-universal.tar.gz"
+      sha256 "ee202f1cf7d495c79d750b8039499804665f3100aeefb07a3f7ba77450d2ec92"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.0/hn-v0.4.0-linux-x86_64.tar.gz"
-      sha256 "cfc109ca7c13211f4baea1f5297b6130c1abdfd0b34f6ff36ae5663ba1662563"
+      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.2/hn-v0.4.2-linux-x86_64.tar.gz"
+      sha256 "c86d2c3ea9cc9b9bb35e75e2cdcd2f4c5e530ba299cf9b6fa8c6bbcb90ea239b"
     end
 
     on_arm do
-      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.0/hn-v0.4.0-linux-aarch64.tar.gz"
-      sha256 "84de247117a7d6ab58e092e4f6cf5c694c18de8c2f98fc8467df27cf872e704f"
+      url "https://github.com/kaushalvivek/hn-cli/releases/download/v0.4.2/hn-v0.4.2-linux-aarch64.tar.gz"
+      sha256 "ab26a2f9f5bbbc20b64d8d0be9245e340de4570fad63c5175eb268156521a6cf"
     end
   end
 
@@ -32,6 +32,6 @@ class Hn < Formula
   end
 
   test do
-    assert_match "0.4.0", shell_output("#{bin}/hn --version")
+    assert_match "0.4.2", shell_output("#{bin}/hn --version")
   end
 end
